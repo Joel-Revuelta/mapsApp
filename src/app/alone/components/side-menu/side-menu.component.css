@@ -1,5 +1,10 @@
 
-maps-side-menu {
+li {
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+ul {
   position: fixed;
   top: 20px;
   left: 20px;

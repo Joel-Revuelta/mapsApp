@@ -11,7 +11,7 @@ export class MiniMapComponent implements AfterViewInit {
   @ViewChild('map') divMap?: ElementRef;
 
   @Input() lngLat?: [number, number];
-  
+
   public map?: Map;
 
   ngAfterViewInit(): void {
